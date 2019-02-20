@@ -2,7 +2,7 @@ module.exports = {
   verbose: true,
   testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.[j,t]sx?$',
   roots: [
-    '<rootDir>/src/',
+    '<rootDir>/__tests__/',
   ],
   transform: {
     '^.+\\.jsx$': 'babel-jest',

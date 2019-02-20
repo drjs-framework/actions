@@ -1,4 +1,4 @@
-import { createRequestTypes, buildObject } from '../actionHelper';
+import { createRequestTypes, buildObject } from '../src/actionHelper';
 
 const typesTest = {
   REQUEST: 'TEST_REQUEST',
