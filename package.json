@@ -1,11 +1,14 @@
 {
   "name": "@drjs/actions",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Standard actions fro drjs",
   "main": "dist/index.js",
   "repository": "https://github.com/drjs-framework/actions.git",
   "author": "Amador Mateo <amateofernandez@gmail.com>",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "clean": "rm -rf dist",
     "compile": "babel -d dist src",
