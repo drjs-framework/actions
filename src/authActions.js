@@ -19,7 +19,7 @@ export const SAVE_USER = 'STANDARD.AUTH.SAVE_USER';
 export const saveUser = payload => ({ type: SAVE_USER, payload });
 
 export const LOGOUT = 'STANDARD.AUTH.LOGOUT';
-export const logout = () => ({ type: LOGOUT });
+export const logout = payload => ({ type: LOGOUT, payload });
 
 export const PASSWORD_RECOVERY = createRequestTypes('STANDARD.AUTH.PASSWORD_RECOVERY');
 export const passwordRecovery = buildObject(PASSWORD_RECOVERY);
